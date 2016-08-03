@@ -2,9 +2,10 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Link_Sharing dev" uuid="102cdc95-dffc-4ddd-94aa-79bd9e88e034">
-      <first-sync>true</first-sync>
       <user-name>root</user-name>
       <user-password>dfc4dfcfdfd2dfdedfcedfcfdfccdfcbdfdfdfc6dfde</user-password>
+      <schema-pattern>link_sharing.*</schema-pattern>
+      <default-schemas>link_sharing.*</default-schemas>
     </data-source>
   </component>
 </project>

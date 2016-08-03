@@ -12,7 +12,7 @@ class RegisterUserService {
     User registerUser(params){
         println("inside service beofre save")
         User user=new User(username: params.username,email: params.email,password: params.password,firstName: params.firstName,lastName: params.lastName,isActive: true,isAdmin: false)
-        
+
         user.save(flush: true,failOnError: true)
         println("inside service beofre save")
         user
